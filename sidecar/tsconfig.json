@@ -1,0 +1,24 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "es2023"
+    ],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "incremental": false,
+    "jsx": "preserve",
+    "types": [
+      "node"
+    ],
+    "plugins": []
+  },
+  "include": [
+    "./**/*.ts",
+    "../src/lib/claude.ts"
+  ],
+  "exclude": []
+}
